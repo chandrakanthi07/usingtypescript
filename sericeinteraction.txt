@@ -1,0 +1,7 @@
+
+1) What options do we have to establish such communication? 
+Ans : making service available across the application and invoking it in other services. Like in angular framework, we inject the service at the root level
+2) For each option describe what are the pros and cons of this solution?
+Ans : invoking services within each other can lead to circular dependency
+3) For each option describe what are the cases the solution fits best?
+Ans :This approach can be used for logging, user registratition with email service
